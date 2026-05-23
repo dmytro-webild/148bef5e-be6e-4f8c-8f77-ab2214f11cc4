@@ -32,26 +32,11 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarStyleApple
       navItems={[
-        {
-          name: "Accueil",
-          id: "hero",
-        },
-        {
-          name: "Programmes",
-          id: "programs",
-        },
-        {
-          name: "Nutrition",
-          id: "nutrition",
-        },
-        {
-          name: "Quiz",
-          id: "quiz",
-        },
-        {
-          name: "Contact",
-          id: "contact",
-        },
+        { name: "Accueil", id: "hero" },
+        { name: "Programmes", id: "programs" },
+        { name: "Nutrition", id: "nutrition" },
+        { name: "Quiz", id: "quiz" },
+        { name: "Contact", id: "contact" },
       ]}
       brandName="FitQuest"
     />
@@ -60,104 +45,31 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroSplitDoubleCarousel
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       title="FitQuest : Ton Aventure Fitness Commence Ici"
       description="Progresse, apprends les bonnes bases et deviens la meilleure version de toi-même. Programmes adaptés pour débutants et ados."
       leftCarouselItems={[
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/group-social-media-team-working-modern-office_23-2147847490.jpg?_wi=1",
-          imageAlt: "fitness gym teens sports",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-people-discussing-office_23-2149345276.jpg",
-          imageAlt: "fitness gym teens sports",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-girls-gym-sports-ladies-sportswear-friends-training_1157-43968.jpg",
-          imageAlt: "fitness gym teens sports",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-girls-gym-sports-ladies-sportswear-friends-training_1157-43965.jpg",
-          imageAlt: "fitness gym teens sports",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/athlete-watching-running-track_23-2148222198.jpg",
-          imageAlt: "fitness gym teens sports",
-        },
+        { imageSrc: "http://img.b2bpic.net/free-photo/group-social-media-team-working-modern-office_23-2147847490.jpg", imageAlt: "fitness gym teens sports" },
+        { imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-people-discussing-office_23-2149345276.jpg", imageAlt: "fitness gym teens sports" },
+        { imageSrc: "http://img.b2bpic.net/free-photo/beautiful-girls-gym-sports-ladies-sportswear-friends-training_1157-43968.jpg", imageAlt: "fitness gym teens sports" },
+        { imageSrc: "http://img.b2bpic.net/free-photo/beautiful-girls-gym-sports-ladies-sportswear-friends-training_1157-43965.jpg", imageAlt: "fitness gym teens sports" },
+        { imageSrc: "http://img.b2bpic.net/free-photo/athlete-watching-running-track_23-2148222198.jpg", imageAlt: "fitness gym teens sports" },
       ]}
       rightCarouselItems={[
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-fit-woman-stretching-with-equipment_23-2149386016.jpg",
-          imageAlt: "fitness gym teens sports",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/blue-orange-plastic-chairs_250224-173.jpg",
-          imageAlt: "fitness gym teens sports",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/man-bouldering-spot_23-2151734344.jpg",
-          imageAlt: "fitness gym teens sports",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/cozy-loungers-health-spa-with-no-people-copy-space_637285-6704.jpg",
-          imageAlt: "fitness gym teens sports",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-woman-sitting-grandstand_23-2149743819.jpg",
-          imageAlt: "fitness gym teens sports",
-        },
+        { imageSrc: "http://img.b2bpic.net/free-photo/full-shot-fit-woman-stretching-with-equipment_23-2149386016.jpg", imageAlt: "fitness gym teens sports" },
+        { imageSrc: "http://img.b2bpic.net/free-photo/blue-orange-plastic-chairs_250224-173.jpg", imageAlt: "fitness gym teens sports" },
+        { imageSrc: "http://img.b2bpic.net/free-photo/man-bouldering-spot_23-2151734344.jpg", imageAlt: "fitness gym teens sports" },
+        { imageSrc: "http://img.b2bpic.net/free-photo/cozy-loungers-health-spa-with-no-people-copy-space_637285-6704.jpg", imageAlt: "fitness gym teens sports" },
+        { imageSrc: "http://img.b2bpic.net/free-photo/full-shot-woman-sitting-grandstand_23-2149743819.jpg", imageAlt: "fitness gym teens sports" },
       ]}
-      buttons={[
-        {
-          text: "Commencer maintenant",
-          href: "#programs",
-        },
-      ]}
-      avatars={[
-        {
-          src: "http://img.b2bpic.net/free-photo/view-futuristic-classroom-students_23-2150906142.jpg",
-          alt: "View of futuristic classroom for students",
-        },
-        {
-          src: "http://img.b2bpic.net/free-photo/view-futuristic-classroom-students_23-2150906134.jpg",
-          alt: "View of futuristic classroom for students",
-        },
-        {
-          src: "http://img.b2bpic.net/free-photo/room-interior-design_23-2148899436.jpg",
-          alt: "Room interior design",
-        },
-        {
-          src: "http://img.b2bpic.net/free-photo/female-executive-reading-sticky-notes_1170-1928.jpg",
-          alt: "Female executive reading sticky notes",
-        },
-        {
-          src: "http://img.b2bpic.net/free-photo/view-futuristic-classroom-students_23-2150906148.jpg",
-          alt: "View of futuristic classroom for students",
-        },
-      ]}
+      buttons={[{ text: "Commencer maintenant", href: "#programs" }]}
       avatarText="Rejoins 500+ jeunes athlètes"
       marqueeItems={[
-        {
-          type: "text",
-          text: "Progression",
-        },
-        {
-          type: "text",
-          text: "Force",
-        },
-        {
-          type: "text",
-          text: "Motivation",
-        },
-        {
-          type: "text",
-          text: "Discipline",
-        },
-        {
-          type: "text",
-          text: "Santé",
-        },
+        { type: "text", text: "Progression" },
+        { type: "text", text: "Force" },
+        { type: "text", text: "Motivation" },
+        { type: "text", text: "Discipline" },
+        { type: "text", text: "Santé" },
       ]}
     />
   </div>
@@ -167,36 +79,11 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       features={[
-        {
-          title: "Base Musculation",
-          description: "Apprends les mouvements essentiels en toute sécurité.",
-          buttonIcon: "Zap",
-          imageSrc: "http://img.b2bpic.net/free-photo/build-your-own-body-strength-fitness-exercise-get-fit_53876-21384.jpg",
-        },
-        {
-          title: "Full Body Débutant",
-          description: "Un entraînement complet pour tout ton corps.",
-          buttonIcon: "Zap",
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-notepad-with-weights-sneakers_23-2148523243.jpg",
-        },
-        {
-          title: "Circuit Cardio",
-          description: "Boost ta condition physique avec nos circuits.",
-          buttonIcon: "Zap",
-          imageSrc: "http://img.b2bpic.net/free-vector/people-activities_23-2148003538.jpg",
-        },
-        {
-          title: "Programme Volume",
-          description: "Gagne en force et en volume avec méthode.",
-          buttonIcon: "Zap",
-          imageSrc: "http://img.b2bpic.net/free-vector/flat-people-doing-things-set_23-2147538834.jpg",
-        },
-        {
-          title: "Stretching",
-          description: "Gagne en souplesse après tes séances.",
-          buttonIcon: "Zap",
-          imageSrc: "http://img.b2bpic.net/free-photo/group-social-media-team-working-modern-office_23-2147847490.jpg?_wi=2",
-        },
+        { title: "Base Musculation", description: "Apprends les mouvements essentiels en toute sécurité.", buttonIcon: Zap, imageSrc: "http://img.b2bpic.net/free-photo/build-your-own-body-strength-fitness-exercise-get-fit_53876-21384.jpg" },
+        { title: "Full Body Débutant", description: "Un entraînement complet pour tout ton corps.", buttonIcon: Zap, imageSrc: "http://img.b2bpic.net/free-photo/top-view-notepad-with-weights-sneakers_23-2148523243.jpg" },
+        { title: "Circuit Cardio", description: "Boost ta condition physique avec nos circuits.", buttonIcon: Zap, imageSrc: "http://img.b2bpic.net/free-vector/people-activities_23-2148003538.jpg" },
+        { title: "Programme Volume", description: "Gagne en force et en volume avec méthode.", buttonIcon: Zap, imageSrc: "http://img.b2bpic.net/free-vector/flat-people-doing-things-set_23-2147538834.jpg" },
+        { title: "Stretching", description: "Gagne en souplesse après tes séances.", buttonIcon: Zap, imageSrc: "http://img.b2bpic.net/free-photo/group-social-media-team-working-modern-office_23-2147847490.jpg" },
       ]}
       title="Programmes pour Débutants"
       description="Choisis ton programme et construis des bases solides dès aujourd'hui."
@@ -210,42 +97,12 @@ export default function LandingPage() {
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       products={[
-        {
-          id: "1",
-          name: "Squat",
-          price: "Fondamental",
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-online-training-written-pink-sticky-note-notepad-black_140725-144541.jpg",
-        },
-        {
-          id: "2",
-          name: "Pompes",
-          price: "Haut du corps",
-          imageSrc: "http://img.b2bpic.net/free-photo/fitness-vlogger-recording-workout-video-camera-studio-using-dumbbells-explain-lifting-technique-sport-practice-muscular-woman-filming-online-training-lesson-toning-ball_482257-37363.jpg",
-        },
-        {
-          id: "3",
-          name: "Tractions",
-          price: "Dos et bras",
-          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-smiley-man-mat_23-2149177963.jpg",
-        },
-        {
-          id: "4",
-          name: "Fentes",
-          price: "Jambes",
-          imageSrc: "http://img.b2bpic.net/free-photo/young-fitness-girl-black-sportswear-with-headband-working-out-with-dumbbells-looking-strained-standing-green-wall_141793-55696.jpg",
-        },
-        {
-          id: "5",
-          name: "Dips",
-          price: "Triceps",
-          imageSrc: "http://img.b2bpic.net/free-photo/strained-young-handsome-sporty-boy-wearing-headband-wristbands-with-dental-braces-raising-up-dumbbells-with-closed-eyes-isolated-white-background_141793-77404.jpg",
-        },
-        {
-          id: "6",
-          name: "Gainage",
-          price: "Abdominaux",
-          imageSrc: "http://img.b2bpic.net/free-photo/young-fitness-woman-headband-working-out-with-dumbbells-smiling-happy-positive-standing-light-background_141793-66811.jpg",
-        },
+        { id: "1", name: "Squat", price: "Fondamental", imageSrc: "http://img.b2bpic.net/free-photo/top-view-online-training-written-pink-sticky-note-notepad-black_140725-144541.jpg" },
+        { id: "2", name: "Pompes", price: "Haut du corps", imageSrc: "http://img.b2bpic.net/free-photo/fitness-vlogger-recording-workout-video-camera-studio-using-dumbbells-explain-lifting-technique-sport-practice-muscular-woman-filming-online-training-lesson-toning-ball_482257-37363.jpg" },
+        { id: "3", name: "Tractions", price: "Dos et bras", imageSrc: "http://img.b2bpic.net/free-photo/full-shot-smiley-man-mat_23-2149177963.jpg" },
+        { id: "4", name: "Fentes", price: "Jambes", imageSrc: "http://img.b2bpic.net/free-photo/young-fitness-girl-black-sportswear-with-headband-working-out-with-dumbbells-looking-strained-standing-green-wall_141793-55696.jpg" },
+        { id: "5", name: "Dips", price: "Triceps", imageSrc: "http://img.b2bpic.net/free-photo/strained-young-handsome-sporty-boy-wearing-headband-wristbands-with-dental-braces-raising-up-dumbbells-with-closed-eyes-isolated-white-background_141793-77404.jpg" },
+        { id: "6", name: "Gainage", price: "Abdominaux", imageSrc: "http://img.b2bpic.net/free-photo/young-fitness-woman-headband-working-out-with-dumbbells-smiling-happy-positive-standing-light-background_141793-66811.jpg" },
       ]}
       title="Exercices Expliqués Simplement"
       description="Apprends la bonne technique pour chaque mouvement."
@@ -259,18 +116,9 @@ export default function LandingPage() {
       title="Nutrition pour Progresser"
       description="Mange intelligemment pour soutenir tes efforts. Pas de régime miracle, juste de la discipline."
       bulletPoints={[
-        {
-          title: "Protéines",
-          description: "Essentiel pour la construction musculaire.",
-        },
-        {
-          title: "Hydratation",
-          description: "Bois de l'eau tout au long de la journée.",
-        },
-        {
-          title: "Glucides",
-          description: "L'énergie nécessaire pour tes séances.",
-        },
+        { title: "Protéines", description: "Essentiel pour la construction musculaire." },
+        { title: "Hydratation", description: "Bois de l'eau tout au long de la journée." },
+        { title: "Glucides", description: "L'énergie nécessaire pour tes séances." },
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/group-fit-girls-with-vegetables_1303-24849.jpg"
       mediaAnimation="slide-up"
@@ -283,24 +131,9 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       metrics={[
-        {
-          id: "1",
-          icon: Star,
-          title: "Questions",
-          value: "20+",
-        },
-        {
-          id: "2",
-          icon: Award,
-          title: "Niveaux",
-          value: "3",
-        },
-        {
-          id: "3",
-          icon: Zap,
-          title: "Joueurs",
-          value: "500+",
-        },
+        { id: "1", icon: Star, title: "Questions", value: "20+" },
+        { id: "2", icon: Award, title: "Niveaux", value: "3" },
+        { id: "3", icon: Zap, title: "Joueurs", value: "500+" },
       ]}
       title="FitQuest Quiz"
       description="Teste tes connaissances fitness et gagne des points."
@@ -313,60 +146,16 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       testimonials={[
-        {
-          id: "1",
-          name: "Thomas",
-          role: "Débutant",
-          company: "FitQuest",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/young-man-doing-workout-fitness-club_23-2147949517.jpg",
-        },
-        {
-          id: "2",
-          name: "Léa",
-          role: "Débutante",
-          company: "FitQuest",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/sport-active-lifestyle-sporty-flexible-girl-fitness-woman-blue-sportswear-doing-stretching-exercise-light-background_639032-2567.jpg",
-        },
-        {
-          id: "3",
-          name: "Julien",
-          role: "Intermédiaire",
-          company: "FitQuest",
-          rating: 4,
-          imageSrc: "http://img.b2bpic.net/free-photo/thoughtful-woman-sitting-floor-relaxing_23-2148241614.jpg",
-        },
-        {
-          id: "4",
-          name: "Sarah",
-          role: "Débutante",
-          company: "FitQuest",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-posing-two-red-metal-bars_23-2148698877.jpg",
-        },
-        {
-          id: "5",
-          name: "Lucas",
-          role: "Adepte",
-          company: "FitQuest",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/sports-girls-training-summer-park_1157-37289.jpg",
-        },
+        { id: "1", name: "Thomas", role: "Débutant", company: "FitQuest", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/young-man-doing-workout-fitness-club_23-2147949517.jpg" },
+        { id: "2", name: "Léa", role: "Débutante", company: "FitQuest", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/sport-active-lifestyle-sporty-flexible-girl-fitness-woman-blue-sportswear-doing-stretching-exercise-light-background_639032-2567.jpg" },
+        { id: "3", name: "Julien", role: "Intermédiaire", company: "FitQuest", rating: 4, imageSrc: "http://img.b2bpic.net/free-photo/thoughtful-woman-sitting-floor-relaxing_23-2148241614.jpg" },
+        { id: "4", name: "Sarah", role: "Débutante", company: "FitQuest", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/woman-posing-two-red-metal-bars_23-2148698877.jpg" },
+        { id: "5", name: "Lucas", role: "Adepte", company: "FitQuest", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/sports-girls-training-summer-park_1157-37289.jpg" },
       ]}
       kpiItems={[
-        {
-          value: "5k",
-          label: "Athlètes",
-        },
-        {
-          value: "10k",
-          label: "Séances",
-        },
-        {
-          value: "95%",
-          label: "Satisfaits",
-        },
+        { value: "5k", label: "Athlètes" },
+        { value: "10k", label: "Séances" },
+        { value: "95%", label: "Satisfaits" },
       ]}
       title="Ce qu'ils pensent de FitQuest"
       description="Rejoins la communauté de ceux qui progressent."
@@ -377,21 +166,9 @@ export default function LandingPage() {
       <FaqSplitText
       useInvertedBackground={false}
       faqs={[
-        {
-          id: "1",
-          title: "C'est pour quel âge ?",
-          content: "FitQuest est idéal pour les ados et les débutants.",
-        },
-        {
-          id: "2",
-          title: "Faut-il du matériel ?",
-          content: "Pas obligatoirement, nos programmes incluent du poids de corps.",
-        },
-        {
-          id: "3",
-          title: "Comment s'inscrire ?",
-          content: "Clique sur commencer et suis les instructions.",
-        },
+        { id: "1", title: "C'est pour quel âge ?", content: "FitQuest est idéal pour les ados et les débutants." },
+        { id: "2", title: "Faut-il du matériel ?", content: "Pas obligatoirement, nos programmes incluent du poids de corps." },
+        { id: "3", title: "Comment s'inscrire ?", content: "Clique sur commencer et suis les instructions." },
       ]}
       sideTitle="Questions Fréquentes"
       faqsAnimation="slide-up"
@@ -401,61 +178,18 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactText
       useInvertedBackground={false}
-      background={{
-        variant: "plain",
-      }}
+      background={{ variant: "plain" }}
       text="Prêt à transformer ton quotidien ?"
-      buttons={[
-        {
-          text: "Nous contacter",
-          href: "#",
-        },
-      ]}
+      buttons={[{ text: "Nous contacter", href: "#" }]}
     />
   </div>
 
   <div id="footer" data-section="footer">
       <FooterSimple
       columns={[
-        {
-          title: "FitQuest",
-          items: [
-            {
-              label: "Accueil",
-              href: "#hero",
-            },
-            {
-              label: "Programmes",
-              href: "#programs",
-            },
-          ],
-        },
-        {
-          title: "Ressources",
-          items: [
-            {
-              label: "Nutrition",
-              href: "#nutrition",
-            },
-            {
-              label: "Exercices",
-              href: "#exercises",
-            },
-          ],
-        },
-        {
-          title: "Social",
-          items: [
-            {
-              label: "Instagram",
-              href: "#",
-            },
-            {
-              label: "TikTok",
-              href: "#",
-            },
-          ],
-        },
+        { title: "FitQuest", items: [{ label: "Accueil", href: "#hero" }, { label: "Programmes", href: "#programs" }] },
+        { title: "Ressources", items: [{ label: "Nutrition", href: "#nutrition" }, { label: "Exercices", href: "#exercises" }] },
+        { title: "Social", items: [{ label: "Instagram", href: "#" }, { label: "TikTok", href: "#" }] },
       ]}
       bottomLeftText="© 2024 FitQuest"
       bottomRightText="Tous droits réservés"
