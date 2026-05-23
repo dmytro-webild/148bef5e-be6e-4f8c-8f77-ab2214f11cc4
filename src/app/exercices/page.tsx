@@ -1,7 +1,7 @@
 "use client";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
-import { NavbarStyleApple } from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
-import { FooterSimple } from '@/components/sections/footer/FooterSimple';
+import NavbarStyleApple from "@/components/navbar/NavbarStyleApple/NavbarStyleApple";
+import FooterSimple from "@/components/sections/footer/FooterSimple";
 
 export default function ExercisesPage() {
   return (
