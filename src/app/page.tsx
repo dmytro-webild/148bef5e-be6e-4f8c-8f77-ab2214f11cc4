@@ -49,7 +49,7 @@ export default function LandingPage() {
       title="FitQuest : Ton Aventure Fitness Commence Ici"
       description="Progresse, apprends les bonnes bases et deviens la meilleure version de toi-même. Programmes adaptés pour débutants et ados."
       leftCarouselItems={[
-        { imageSrc: "http://img.b2bpic.net/free-photo/group-social-media-team-working-modern-office_23-2147847490.jpg", imageAlt: "fitness gym teens sports" },
+        { imageSrc: "http://img.b2bpic.net/free-photo/group-social-media-team-working-modern-office_23-2147847490.jpg?_wi=1", imageAlt: "fitness gym teens sports" },
         { imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-people-discussing-office_23-2149345276.jpg", imageAlt: "fitness gym teens sports" },
         { imageSrc: "http://img.b2bpic.net/free-photo/beautiful-girls-gym-sports-ladies-sportswear-friends-training_1157-43968.jpg", imageAlt: "fitness gym teens sports" },
         { imageSrc: "http://img.b2bpic.net/free-photo/beautiful-girls-gym-sports-ladies-sportswear-friends-training_1157-43965.jpg", imageAlt: "fitness gym teens sports" },
@@ -83,7 +83,7 @@ export default function LandingPage() {
         { title: "Full Body Débutant", description: "Un entraînement complet pour tout ton corps.", buttonIcon: Zap, imageSrc: "http://img.b2bpic.net/free-photo/top-view-notepad-with-weights-sneakers_23-2148523243.jpg" },
         { title: "Circuit Cardio", description: "Boost ta condition physique avec nos circuits.", buttonIcon: Zap, imageSrc: "http://img.b2bpic.net/free-vector/people-activities_23-2148003538.jpg" },
         { title: "Programme Volume", description: "Gagne en force et en volume avec méthode.", buttonIcon: Zap, imageSrc: "http://img.b2bpic.net/free-vector/flat-people-doing-things-set_23-2147538834.jpg" },
-        { title: "Stretching", description: "Gagne en souplesse après tes séances.", buttonIcon: Zap, imageSrc: "http://img.b2bpic.net/free-photo/group-social-media-team-working-modern-office_23-2147847490.jpg" },
+        { title: "Stretching", description: "Gagne en souplesse après tes séances.", buttonIcon: Zap, imageSrc: "http://img.b2bpic.net/free-photo/group-social-media-team-working-modern-office_23-2147847490.jpg?_wi=2" },
       ]}
       title="Programmes pour Débutants"
       description="Choisis ton programme et construis des bases solides dès aujourd'hui."
