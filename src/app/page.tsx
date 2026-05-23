@@ -66,7 +66,7 @@ export default function LandingPage() {
       description="Progresse, apprends les bonnes bases et deviens la meilleure version de toi-même. Programmes adaptés pour débutants et ados."
       leftCarouselItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/group-social-media-team-working-modern-office_23-2147847490.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/group-social-media-team-working-modern-office_23-2147847490.jpg?_wi=1",
           imageAlt: "fitness gym teens sports",
         },
         {
@@ -195,7 +195,7 @@ export default function LandingPage() {
           title: "Stretching",
           description: "Gagne en souplesse après tes séances.",
           buttonIcon: "Zap",
-          imageSrc: "http://img.b2bpic.net/free-photo/group-social-media-team-working-modern-office_23-2147847490.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/group-social-media-team-working-modern-office_23-2147847490.jpg?_wi=2",
         },
       ]}
       title="Programmes pour Débutants"
