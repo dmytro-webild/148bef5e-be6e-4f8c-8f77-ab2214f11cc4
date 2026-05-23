@@ -48,20 +48,20 @@ export default function LandingPage() {
       title="FitQuest : Ton Aventure Fitness Commence Ici"
       description="Progresse, apprends les bonnes bases et deviens la meilleure version de toi-même. Programmes adaptés pour débutants et ados."
       leftCarouselItems={[
-        { id: "1", imageSrc: "http://img.b2bpic.net/free-photo/group-social-media-team-working-modern-office_23-2147847490.jpg" },
-        { id: "2", imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-people-discussing-office_23-2149345276.jpg" },
-        { id: "3", imageSrc: "http://img.b2bpic.net/free-photo/beautiful-girls-gym-sports-ladies-sportswear-friends-training_1157-43968.jpg" },
-        { id: "4", imageSrc: "http://img.b2bpic.net/free-photo/beautiful-girls-gym-sports-ladies-sportswear-friends-training_1157-43965.jpg" },
-        { id: "5", imageSrc: "http://img.b2bpic.net/free-photo/athlete-watching-running-track_23-2148222198.jpg" },
-        { id: "6", imageSrc: "http://img.b2bpic.net/free-photo/group-social-media-team-working-modern-office_23-2147847490.jpg" }
+        { imageSrc: "http://img.b2bpic.net/free-photo/group-social-media-team-working-modern-office_23-2147847490.jpg" },
+        { imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-people-discussing-office_23-2149345276.jpg" },
+        { imageSrc: "http://img.b2bpic.net/free-photo/beautiful-girls-gym-sports-ladies-sportswear-friends-training_1157-43968.jpg" },
+        { imageSrc: "http://img.b2bpic.net/free-photo/beautiful-girls-gym-sports-ladies-sportswear-friends-training_1157-43965.jpg" },
+        { imageSrc: "http://img.b2bpic.net/free-photo/athlete-watching-running-track_23-2148222198.jpg" },
+        { imageSrc: "http://img.b2bpic.net/free-photo/group-social-media-team-working-modern-office_23-2147847490.jpg" }
       ]}
       rightCarouselItems={[
-        { id: "1", imageSrc: "http://img.b2bpic.net/free-photo/full-shot-fit-woman-stretching-with-equipment_23-2149386016.jpg" },
-        { id: "2", imageSrc: "http://img.b2bpic.net/free-photo/blue-orange-plastic-chairs_250224-173.jpg" },
-        { id: "3", imageSrc: "http://img.b2bpic.net/free-photo/man-bouldering-spot_23-2151734344.jpg" },
-        { id: "4", imageSrc: "http://img.b2bpic.net/free-photo/cozy-loungers-health-spa-with-no-people-copy-space_637285-6704.jpg" },
-        { id: "5", imageSrc: "http://img.b2bpic.net/free-photo/full-shot-woman-sitting-grandstand_23-2149743819.jpg" },
-        { id: "6", imageSrc: "http://img.b2bpic.net/free-photo/full-shot-woman-sitting-grandstand_23-2149743819.jpg" }
+        { imageSrc: "http://img.b2bpic.net/free-photo/full-shot-fit-woman-stretching-with-equipment_23-2149386016.jpg" },
+        { imageSrc: "http://img.b2bpic.net/free-photo/blue-orange-plastic-chairs_250224-173.jpg" },
+        { imageSrc: "http://img.b2bpic.net/free-photo/man-bouldering-spot_23-2151734344.jpg" },
+        { imageSrc: "http://img.b2bpic.net/free-photo/cozy-loungers-health-spa-with-no-people-copy-space_637285-6704.jpg" },
+        { imageSrc: "http://img.b2bpic.net/free-photo/full-shot-woman-sitting-grandstand_23-2149743819.jpg" },
+        { imageSrc: "http://img.b2bpic.net/free-photo/full-shot-woman-sitting-grandstand_23-2149743819.jpg" }
       ]}
       buttons={[{ text: "Commencer maintenant", href: "#programs" }]}
     />
