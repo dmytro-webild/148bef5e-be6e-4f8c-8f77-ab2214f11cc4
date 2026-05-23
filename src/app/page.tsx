@@ -12,7 +12,7 @@ import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleAp
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import SplitAbout from '@/components/sections/about/SplitAbout';
 import TestimonialCardSixteen from '@/components/sections/testimonial/TestimonialCardSixteen';
-import { Award, Star, Zap } from "lucide-react";
+import { Award, Star, Zap, CreditCard, Mail, Phone, MapPin } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -62,7 +62,7 @@ export default function LandingPage() {
         { imageSrc: "http://img.b2bpic.net/free-photo/cozy-loungers-health-spa-with-no-people-copy-space_637285-6704.jpg", imageAlt: "fitness gym teens sports" },
         { imageSrc: "http://img.b2bpic.net/free-photo/full-shot-woman-sitting-grandstand_23-2149743819.jpg", imageAlt: "fitness gym teens sports" },
       ]}
-      buttons={[{ text: "Commencer maintenant", href: "#programs" }]}
+      buttons={[{ text: "Commencer maintenant", href: "#programs" }]
       avatarText="Rejoins 500+ jeunes athlètes"
       marqueeItems={[
         { type: "text", text: "Progression" },
@@ -187,12 +187,12 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterSimple
       columns={[
-        { title: "FitQuest", items: [{ label: "Accueil", href: "#hero" }, { label: "Programmes", href: "#programs" }] },
-        { title: "Ressources", items: [{ label: "Nutrition", href: "#nutrition" }, { label: "Exercices", href: "#exercises" }] },
-        { title: "Social", items: [{ label: "Instagram", href: "#" }, { label: "TikTok", href: "#" }] },
+        { title: "FitQuest", items: [{ label: "Accueil", href: "#hero" }, { label: "Programmes", href: "#programs" }, { label: "Paiements", href: "#" }] },
+        { title: "Ressources", items: [{ label: "Nutrition", href: "#nutrition" }, { label: "Exercices", href: "#exercises" }, { label: "Contact", href: "#contact" }] },
+        { title: "Support", items: [{ label: "Support", href: "mailto:support@fitquest.com" }, { label: "FAQ", href: "#faq" }, { label: "Mentions Légales", href: "#" }] },
       ]}
-      bottomLeftText="© 2024 FitQuest"
-      bottomRightText="Tous droits réservés"
+      bottomLeftText="© 2024 FitQuest. Tous droits réservés."
+      bottomRightText="Paiement sécurisé via Stripe"
     />
   </div>
       </ReactLenis>
